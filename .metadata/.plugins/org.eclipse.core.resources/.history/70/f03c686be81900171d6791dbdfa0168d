@@ -1,0 +1,20 @@
+package dip;
+
+public class DipA extends Dipendente {
+
+	private int malattia;
+
+	public DipA(String matricola, float stipendio, float straordinario) {
+		super(matricola, stipendio, straordinario);
+		malattia = 0;
+	}
+
+	public int getMalattia() {
+		return malattia;
+	}
+
+	public void setMalattia(int malattia) {
+		this.malattia = malattia;
+	}
+
+}
